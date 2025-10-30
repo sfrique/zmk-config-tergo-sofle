@@ -35,7 +35,7 @@
 // Abaixo, há especificações do comportamento do tap-hold para teclas com duplo comportamento
 // Para mais detalhes: https://zmk.dev/docs/keymaps/behaviors/hold-tap
 
-#define TAPPING_TERM 300 // Tempo em milissegundos para diferenciar o tap-hold
+#define TAPPING_TERM 250 // Tempo em milissegundos para diferenciar o tap-hold
 
 // Para teclas com tap-hold em que o hold é um modificador, como CTRL, ALT, etc
 &mt {
