@@ -100,11 +100,11 @@
         base_layer {
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1          &kp N2          &kp N3       &kp N4            &kp N5                                           &kp N6      &kp N7             &kp N8       &kp N9           &kp N0              &kp MINUS
-&kp TAB    &kp Q           &kp W           &kp E        &kp R             &kp T                                            &kp Y       &kp U              &kp I        &kp O            &kp P               &kp BSPC
-&kp LSHFT  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G                                            &kp H       &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMI  &kp SQT
-&kp LCTRL  &kp Z           &kp X           &kp C        &kp V             &kp B        &mo MEDIA           &mo ADJUST      &kp N       &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp ENTER
-                           &mo NUMPAD      &mo 6        &kp LALT          &lt 3 SPACE  &mt LEFT_GUI TAB    &mt RGUI ENTER  &lt 3 BSPC  &lt 5 DEL          &mo 6        &kp RCTRL
+&kp ESC    &kp N1          &kp N2          &kp N3       &kp N4            &kp N5                                              &kp N6           &kp N7             &kp N8       &kp N9           &kp N0              &kp MINUS
+&kp TAB    &kp Q           &kp W           &kp E        &kp R             &kp T                                               &kp Y            &kp U              &kp I        &kp O            &kp P               &kp BSPC
+&kp LSHFT  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &mt LEFT_GUI G                                      &mt RIGHT_GUI H  &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMI  &kp SQT
+&kp LCTRL  &kp Z           &kp X           &kp C        &kp V             &kp B           &mo MEDIA           &mo ADJUST      &kp N            &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp ENTER
+                           &mo NUMPAD      &mo 6        &kp LALT          &lt 3 SPACE     &mt LEFT_GUI TAB    &mt RGUI ENTER  &lt 3 BSPC       &lt 5 DEL          &mo 6        &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -141,11 +141,11 @@
         symb_nav_layer {
             display-name = "SymNv";
             bindings = <
-&trans  &kp F1         &kp F2        &kp F3         &kp F4        &kp F5                          &kp F6     &kp F7        &kp F8    &kp F9         &kp F10          &kp F11
-&trans  &kp GRAVE      &kp LS(N6)    &kp KP_PLUS    &kp LS(LBKT)  &kp LS(RBKT)                    &kp PG_UP  &kp HOME      &kp UP    &kp END        &kp INS          &kp F12
-&trans  &kp LS(GRAVE)  &kp EQUAL     &kp KP_MINUS   &kp LS(N9)    &kp LS(N0)                      &kp PG_DN  &kp LEFT      &kp DOWN  &kp RIGHT      &kp PSCRN        &kp LS(PRINTSCREEN)
-&trans  &kp NUBS       &kp LS(NUBS)  &kp LS(MINUS)  &kp LBKT      &kp RBKT      &trans    &trans  &kp CAPS   &kp LC(LEFT)  &kp ESC   &kp LC(RIGHT)  &kp PAUSE_BREAK  &none
-                       &trans        &trans         &trans        &trans        &trans    &trans  &trans     &trans        &trans    &trans
+&kp AT_SIGN  &kp F1         &kp F2        &kp F3         &kp F4        &kp F5                          &kp F6     &kp F7        &kp F8    &kp F9         &kp F10          &kp F11
+&kp HASH     &kp GRAVE      &kp LS(N6)    &kp KP_PLUS    &kp LS(LBKT)  &kp LS(RBKT)                    &kp PG_UP  &kp HOME      &kp UP    &kp END        &kp INS          &kp F12
+&kp DOLLAR   &kp LS(GRAVE)  &kp EQUAL     &kp KP_MINUS   &kp LS(N9)    &kp LS(N0)                      &kp PG_DN  &kp LEFT      &kp DOWN  &kp RIGHT      &kp PSCRN        &kp LS(PRINTSCREEN)
+&kp PERCENT  &kp NUBS       &kp LS(NUBS)  &kp LS(MINUS)  &kp LBKT      &kp RBKT      &trans    &trans  &kp CAPS   &kp LC(LEFT)  &kp ESC   &kp LC(RIGHT)  &kp PAUSE_BREAK  &none
+                            &trans        &trans         &trans        &trans        &trans    &trans  &trans     &trans        &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
