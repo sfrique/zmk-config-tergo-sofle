@@ -141,10 +141,10 @@
         symb_nav_layer {
             display-name = "SymNv";
             bindings = <
-&kp AT_SIGN  &kp F1         &kp F2        &kp F3         &kp F4        &kp F5                          &kp F6     &kp F7        &kp F8    &kp F9         &kp F10          &kp F11
-&kp HASH     &kp GRAVE      &kp LS(N6)    &kp KP_PLUS    &kp LS(LBKT)  &kp LS(RBKT)                    &kp PG_UP  &kp HOME      &kp UP    &kp END        &kp INS          &kp F12
-&kp DOLLAR   &kp LS(GRAVE)  &kp EQUAL     &kp KP_MINUS   &kp LS(N9)    &kp LS(N0)                      &kp PG_DN  &kp LEFT      &kp DOWN  &kp RIGHT      &kp PSCRN        &kp LS(PRINTSCREEN)
-&kp PERCENT  &kp NUBS       &kp LS(NUBS)  &kp LS(MINUS)  &kp LBKT      &kp RBKT      &trans    &trans  &kp CAPS   &kp LC(LEFT)  &kp ESC   &kp LC(RIGHT)  &kp PAUSE_BREAK  &none
+&kp AT_SIGN  &kp F1         &kp F2        &kp F3         &kp F4        &kp F5                          &kp F6     &kp F7        &kp F8    &kp F9         &kp F10              &kp F11
+&kp HASH     &kp GRAVE      &kp LS(N6)    &kp KP_PLUS    &kp LS(LBKT)  &kp LS(RBKT)                    &kp PG_UP  &kp HOME      &kp UP    &kp END        &kp INS              &kp F12
+&kp DOLLAR   &kp LS(GRAVE)  &kp EQUAL     &kp KP_MINUS   &kp LS(N9)    &kp LS(N0)                      &kp PG_DN  &kp LEFT      &kp DOWN  &kp RIGHT      &kp PSCRN            &kp LS(PRINTSCREEN)
+&kp PERCENT  &kp NUBS       &kp LS(NUBS)  &kp LS(MINUS)  &kp LBKT      &kp RBKT      &trans    &trans  &kp CAPS   &kp LC(LEFT)  &kp ESC   &kp LC(RIGHT)  &kp LC(PRINTSCREEN)  &kp LC(LS(PRINTSCREEN))
                             &trans        &trans         &trans        &trans        &trans    &trans  &trans     &trans        &trans    &trans
             >;
 
